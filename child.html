@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Lorem Ipsum Generator</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="text"></div>
+    <button id="add-para">+</button>
+    <button id="remove-para">-</button>
+  </div>
+</body>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  * {
+    font-family: sans-serif;
+  }
+
+  #container {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+</style>
+
+</html>
+
+<script>
+  const data = [
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRSkuqhmGWLFLT_LnP4r9ejlV5hu8OhexelHKNcE7Q_OKuC7C553Ghnvtu0XWHNTBwjA0IpIT17lljq/pubhtml?widget=true&amp;headers=false"></iframe>
+  ];
+
+  let numberOfParagraphs = 1;
+
+  const addPara = () => {
+    data.map((el, i) => {
+      if (i === numberOfParagraphs - 1) {
+        const p = document.createElement("p");
+        p.setAttribute("id", i);
+        const node = document.createTextNode(el);
+        p.appendChild(node);
+        document.getElementById("text").append(p);
+      }
+    });
+  };
+
+  const removePara = () => {
+    document.getElementById(numberOfParagraphs).remove();
+  };
+
+  document.getElementById("add-para").addEventListener("click", () => {
+    if (numberOfParagraphs < 20) {
+      numberOfParagraphs++;
+      addPara();
+    }
+  });
+
+  document.getElementById("remove-para").addEventListener("click", () => {
+    if (numberOfParagraphs > 0) {
+      numberOfParagraphs--;
+      removePara();
+    }
+  });
+
+  addPara();
+
+  let height;
+
+  const sendPostMessage = () => {
+    if (height !== document.getElementById('container').offsetHeight) {
+      height = document.getElementById('container').offsetHeight;
+      window.parent.postMessage({
+        frameHeight: height
+      }, '*');
+      console.log(height);
+    }
+  }
+
+  window.onload = () => sendPostMessage();
+  window.onresize = () => sendPostMessage();
+  document.getElementById('add-para').onclick = () => sendPostMessage();
+  document.getElementById('remove-para').onclick = () => sendPostMessage();
+
+</script>
