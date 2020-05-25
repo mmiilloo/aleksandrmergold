@@ -50,6 +50,9 @@ iframe {
 }
 .document {
 font-size: 30px;
+-webkit-hyphens: manual;
+-ms-hyphens: manual;
+hyphens: manual;
 }
 
 .columns {
