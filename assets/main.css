@@ -44,7 +44,7 @@ iframe {
 
 .container {
 	margin-left: 400px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	margin-right: 30px;
 	padding-top: 20px;
 }
@@ -177,7 +177,7 @@ div.footer {
 
 	.modal {
 	    display: none;
-	    background-color: rgba(238, 238, 238, .85);
+	    background-color: rgba(245, 245, 245, .85);
 	    width: 100%;
 	    /* z-index: 3000; */
 	    padding-right: 20%;
