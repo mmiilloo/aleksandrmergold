@@ -1,0 +1,471 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: #eeeeee;
+	font-family: Times New Roman, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, ol, ul,
+.centered,
+.byline,
+.year,
+.byline-extra,
+.pdf {
+	font-size: 15px;
+	line-height: 1.3;
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+/*h2 {
+	font-size: 50px;
+	margin-bottom: 0.25em;
+	margin-top: 1.25em;
+	font-weight: 400;
+	line-height: 1.1;
+}
+*/
+
+.current-title {
+	/*color: pink;*/
+}
+
+#name-picker {
+	cursor: pointer;
+}
+
+.picked {
+	background-color: red;
+	color: white;
+}
+
+p {
+	max-width: 1200px;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+	/*font-style: italic;*/
+}
+
+a:hover {
+	background: red;
+}
+
+ul {
+	padding: 0;
+	/*margin: 0;*/
+	list-style-type: none;
+}
+
+ol {
+	padding: 0;
+	padding-left: 1.25em;
+}
+
+img {
+	width: 95%;
+}
+
+figure {
+	margin: 0;
+	margin-bottom: 2em;
+}
+
+section {
+	margin-bottom: 2em;
+}
+
+.comment {
+	display: none;
+}
+
+.caption {
+	margin-top: 50px;
+	color: white;
+}
+
+.clearer {
+	clear: both;
+}
+
+/* OVERALL CONTAINERS AND COLUMNS
+--------------------------------------------------------- */
+
+.container {
+	margin-left: 400px;
+	margin-bottom: 50px;
+	margin-right: 30px;
+	padding-top: 20px;
+}
+
+.columns {
+	margin-top: 2em;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.columns-1 .column {
+	width: 100%;
+}
+
+.columns-2 .column {
+	width: 50%;
+}
+
+.columns-3 .column {
+	width: 33.33%;
+}
+
+.columns-4 .column {
+	width: 25%;
+}
+
+.columns-5 .column {
+	width: 20%;
+}
+
+
+/* NAVIGATION
+--------------------------------------------------------- */
+
+nav {
+	/*border-right: 10px solid #000;*/
+	position: fixed;
+	/*margin-top: -10px;*/
+	margin-left: 20px;
+	padding-right: 260px;
+	height: 100%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li {
+	list-style-type: none;
+	/*font-size: 16px;*/
+	/*margin-bottom: 10px;*/
+	width: auto;
+}
+
+nav li:first-child {
+	margin-top: -5px;
+}
+
+/*
+nav ul {
+	margin-top: -10px;
+}*/
+
+nav li.current,
+nav li.current:hover {
+	cursor: pointer;
+	background: red;
+}
+
+/*nav .home-link {
+	position: absolute;
+	font-size: 24px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}*/
+
+.class-header {
+	position: fixed;
+	bottom: 20px;
+	font-size: 13px;
+	width: auto;
+}
+
+.class-header p{
+	margin-bottom: 0px;
+}
+
+/* TEXTS DIRECTORY
+--------------------------------------------------------- */
+
+.library-row {
+	margin-left: 400px;
+	position: absolute;
+}
+
+.metadata h1 {
+	margin-top: 0px;
+}
+
+/*.library-row:first-child {
+	margin-top: -40px;
+}*/
+
+/*.metadata p {
+	margin: 0;
+}*/
+
+/*.metadata .space {
+	width: 100%;
+	height: 1em;
+}
+
+*/
+/*sup.footnote {
+	font-size: 19px;
+	line-height: 1.2;
+}
+
+#footnotes {
+	margin-top: 56px;
+	max-width: 640px;
+}
+
+#footnotes li {
+	margin-bottom: 1em;
+}
+
+.footnotereverse a,
+.footnotereverse a:hover {
+	background: none;
+}*/
+
+/* INDIVIDUAL DOCUMENT
+--------------------------------------------------------- */
+
+.wrapper {
+	margin: 0;
+	padding-top: 0px;
+  padding-left: 75px;
+	max-width: 90%;
+}
+
+.document {
+	margin: 0;
+	padding-top: 0px;
+  padding-left: 75px;
+	max-width: 90%;
+}
+
+.document ul li {
+	list-style-type: circle;
+	list-style: inside;
+}
+
+/*.document .metadata {
+	margin-top: 56px;
+}
+*/
+/*.document h2:first-child {
+	margin-top: 0;
+}
+*/
+.document h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*border-top: 1px dashed black;*/
+}
+
+.document h3{
+	border-top: 1px dashed black;
+}
+
+.document p {
+	margin-top: 0px;
+  font-size: 25px;
+}
+
+
+
+/* PROJECTS
+--------------------------------------------------------- */
+
+.document ul.projects li {
+	list-style-type: none;
+
+	/*padding-bottom: 40px;*/
+}
+
+ul.projects:first-child {
+	margin-top: 0px;
+}
+
+/*.document ul.projects li a{
+	font-size: 2em;
+}
+*/
+
+
+/* CALENDAR
+--------------------------------------------------------- */
+
+/*ul.calendar li.calendar-row {
+	border-bottom: 10px solid #000;
+}*/
+
+ul.calendar li.calendar-row:first-child {
+	margin-top: -25px;
+}
+
+/*ul.calendar li.calendar-row:last-child {
+	border-bottom: 0px;
+}*/
+
+.document ul.calendar li.calendar-row {
+	list-style-type: none;
+}
+
+/*li.calendar-row{
+	margin-right: 10px;
+}*/
+
+ul.calendar .title {
+/*	height: 100px;*/
+/*  width: 100%;*/
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+ul.calendar .title:hover {
+	background: yellow;
+}
+
+ul.calendar .body {
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+	display: none;
+	background: yellow;
+/*	padding-bottom: 50px;*/
+/*	padding-top: 20px;*/
+}
+
+.projects-start-end {
+	position: absolute;
+	width: auto;
+	right: 0px;
+/*	top: 34px;*/
+}
+
+figure.reading {
+	margin-bottom: -0.75em;
+}
+
+.reading img {
+	max-width: 175px;
+}
+/*
+ul.calendar figure {
+	margin: 1em 0;
+}
+*/
+
+/* SHUFFLE
+--------------------------------------------------------- */
+
+a.shuffle,
+a.shuffle:hover {
+	background: none;
+}
+
+
+/* MEDIA QUERIES
+--------------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+
+	h1, h2, h3, h4, h5, h6, p, li, ol, ul,
+	.centered,
+	.byline,
+	.year,
+	.byline-extra,
+	.pdf,
+	.class-header {
+		font-size: 16px;
+		margin-bottom: 0;
+		/*line-height: 1.3;*/
+	}
+
+	p {
+		padding-bottom: 10px;
+	}
+
+/*	.class-header {
+	position: fixed;
+	bottom: 20px;
+	font-size: 24px;
+	width: auto;
+}*/
+
+/*	h2 {
+		font-size: 36px;
+		margin-bottom: 0.25em;
+		margin-top: 30px;
+		font-weight: 400;
+	}
+
+	.projects-start-end {
+		top: 39px;
+	}
+
+	.library-row {
+		padding-top: 30px;
+	}*/
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.container {
+		margin: 50px;/*
+		margin-bottom: 50px;*/
+	}
+
+	nav {
+		display: block;
+		height: auto;
+		padding-top: 0px;
+		padding-right: 20px;
+		position: relative;
+		/*border-right: 0px solid #000;*/
+	}
+
+/*	nav .home-link {
+		position: absolute;
+		font-size: 16px;
+		margin-top: -30px;
+	}*/
+
+	nav li {
+		list-style-type: none;
+		font-size: 16px;
+		/*margin-bottom: 10px;*/
+		width: auto;
+	}
+
+	.library-row {
+		margin-left: 20px;
+		padding-top: 50px;
+	}
+
+	.class-header {
+		position: relative;
+		padding-top: 45px;
+	}
+
+	.calendar-row .days {
+		display: none;
+	}
+
+/*	ul.calendar li.calendar-row:first-child{
+		border-top: 10px solid #000;
+	}*/
+
+}
