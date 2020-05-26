@@ -258,7 +258,7 @@ div.recipients {
 	.modal {
 	    display: none;
 			margin: auto;
-	    background-color: rgba(125, 125, 132, .9);
+	    background-color: rgba(100, 100, 105, .9);
 	    width: 100%;
 	    /* z-index: 3000; */
 	    padding-left: 25%;
@@ -276,7 +276,7 @@ div.recipients {
 	    width: 60%;
 	    /* max-width: 800px; */
 	    /* text-align: left; */
-	    color: white;
+	    color: rgb(220, 220, 220);
 	    /* padding-left: 100px; */
 	    padding-top: 65px;
 
@@ -292,12 +292,16 @@ div.recipients {
 	    width: 60%;
 	    /* text-align: left; */
 	    /* max-width: 800px; */
-	    color: white;
+	    color: rgb(220, 220, 220);
 	    /* padding-top: 1em; */
 	    background-color: transparent;
-	    font-size: 35px;
+	    font-size: 55px;
 			letter-spacing: 1px;
 
+	}
+
+	strong {
+		color: white;
 	}
 
 	}
