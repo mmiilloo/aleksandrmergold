@@ -259,7 +259,7 @@ div.recipients {
 	.modal {
 	    display: none;
 			margin: auto;
-	    background-color: rgba(150, 150, 150, .86);
+	    background-color: rgba(190, 190, 190, .86);
 	    width: 100%;
 	    /* z-index: 3000; */
 	    padding-left: 25%;
