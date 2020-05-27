@@ -49,6 +49,7 @@ div.tab:hover {
 
 
 
+
 a {
 	text-decoration: none;
 	color: black;
@@ -258,7 +259,7 @@ div.recipients {
 	.modal {
 	    display: none;
 			margin: auto;
-	    background-color: rgba(100, 100, 105, .9);
+	    background-color: rgba(150, 150, 150, .86);
 	    width: 100%;
 	    /* z-index: 3000; */
 	    padding-left: 25%;
@@ -276,7 +277,7 @@ div.recipients {
 	    width: 60%;
 	    /* max-width: 800px; */
 	    /* text-align: left; */
-	    color: rgb(220, 220, 220);
+	    color: white;
 	    /* padding-left: 100px; */
 	    padding-top: 65px;
 
@@ -292,12 +293,17 @@ div.recipients {
 	    width: 60%;
 	    /* text-align: left; */
 	    /* max-width: 800px; */
-	    color: rgb(220, 220, 220);
+	    color: white;
 	    /* padding-top: 1em; */
 	    background-color: transparent;
-	    font-size: 55px;
+	    font-size: 30px;
 			letter-spacing: 1px;
 
+	}
+	mark {
+	  background-color: rgba(0, 0, 255, .75);
+	 	/* background-color: rgba(255, 255, 0, .75); */
+	  color: white;
 	}
 
 	strong {
