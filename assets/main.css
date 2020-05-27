@@ -273,36 +273,29 @@ div.recipients {
 	#class-heading {
 	    margin: auto;
 	    display: block;
-	    font-size: 65px;
-	    width: 60%;
-	    /* max-width: 800px; */
-	    /* text-align: left; */
+	    font-size: 70px;
+	    width: 50%;
 	    color: white;
-	    /* padding-left: 100px; */
 	    padding-top: 65px;
-
 	    z-index: 7000;
 	    background-color: transparent;
 	    letter-spacing: 1px;
 	    line-height: 1em;
-
 	}
 
 	#caption {
 	    margin: auto;
-	    width: 60%;
-	    /* text-align: left; */
-	    /* max-width: 800px; */
+			display: block;
+	    width: 50%;
 	    color: white;
-	    /* padding-top: 1em; */
+	    margin-top: -1em;
 	    background-color: transparent;
-	    font-size: 30px;
-			letter-spacing: 1px;
-
+	    font-size: 35px;
+			line-height: 1.3em;
 	}
+
 	mark {
 	  background-color: rgba(0, 0, 255, .75);
-	 	/* background-color: rgba(255, 255, 0, .75); */
 	  color: white;
 	}
 
