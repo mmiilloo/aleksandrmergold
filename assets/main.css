@@ -126,6 +126,14 @@ margin: auto;
 -ms-hyphens: manual;
 hyphens: manual;
 }
+.archive {
+font-size: 30px;
+margin: 20%;
+-webkit-hyphens: manual;
+-ms-hyphens: manual;
+hyphens: manual;
+line-height: 1.3em;
+}
 
 .columns {
 	margin-top: 2em;
@@ -200,6 +208,22 @@ nav ul {
 		margin-bottom: 0px;
 		text-align: right;
 }
+ul {
+
+	list-style: none;
+
+
+}
+ul a{
+
+	text-decoration: none !important;
+	color: black;
+	padding: 2px;
+	margin-left: -2px;
+	/* background: red; */
+
+
+}
 
 nav li.current,
 nav li.current:hover {
@@ -250,10 +274,21 @@ div.footer {
 }
 
 div.recipients {
-	max-width: 800px;
+		max-width: 800px;
 		font-size: 20px;
 		padding-bottom: 20px;
-			line-height: 1.3em;
+		line-height: 1.3em;
+}
+
+.archive a{
+		background: yellow;
+		padding: 2px;
+}
+
+.archive a:hover{
+		color: yellow;
+		background: yellow;
+		padding: 2px;
 }
 
 	.modal {
