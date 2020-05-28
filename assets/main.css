@@ -138,8 +138,8 @@ margin: 20%;
 -webkit-hyphens: manual;
 -ms-hyphens: manual;
 hyphens: manual;
-background-image: url("background.gif")
-/* background: #eeeeee; */
+/* background-image: url("assets/background.gif") */
+background: #eeeeee;
 line-height: 1.3em;
 padding: 30px;
 }
