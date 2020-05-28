@@ -9,6 +9,12 @@ body {
 	font-family: Times New Roman, serif;
 
 }
+body.archive {
+	margin:0;
+	background: lightgray;
+	font-family: Times New Roman, serif;
+
+}
 
 p {
 	max-width: 800px;
@@ -132,7 +138,9 @@ margin: 20%;
 -webkit-hyphens: manual;
 -ms-hyphens: manual;
 hyphens: manual;
+background: #eeeeee;
 line-height: 1.3em;
+padding: 30px;
 }
 
 .columns {
@@ -258,7 +266,7 @@ nav li.current:hover {
 	.pdf,
 	.header {
 		font-size: 20px;
-		/*line-height: 1.3;*/
+		line-height: 1.3;
 	}
 
 	/* p {
