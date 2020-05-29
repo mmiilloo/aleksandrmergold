@@ -222,7 +222,7 @@ nav {
 
 nav a {
 	text-decoration: none !important;
-	color: black;
+	color: red;
 	padding: 2px;
 	margin-left: -2px;
 	/* background: red; */
@@ -244,9 +244,9 @@ nav ul {
 	margin-top: -1.3em;
 	margin-left: 0px;
 	list-style: none;
-    padding-left: 0;
-		margin-bottom: 0px;
-		text-align: right;
+  padding-left: 0;
+	margin-bottom: 0px;
+	text-align: right;
 }
 ul {
 
@@ -257,7 +257,7 @@ ul {
 ul a{
 
 	text-decoration: none !important;
-	color: black;
+	color: red;
 	padding: 2px;
 	margin-left: -2px;
 	/* background: red; */
