@@ -16,6 +16,7 @@ body.archive {
 
 }
 
+
 p {
 	max-width: 800px;
 		font-size: 30px;
@@ -53,6 +54,20 @@ div.tab:hover {
 	/* opacity: 85%; */
 }
 
+div.bg {
+	z-index: -1000;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	/* margin:0; */
+	margin-left: -5px;
+		margin-right: -50px;
+			margin-top: -5px;
+	background: darkgray;
+	font-family: Times New Roman, serif;
+	background-repeat: repeat;
+	opacity: 20%;
+}
 
 
 
@@ -135,13 +150,29 @@ hyphens: manual;
 .archive {
 font-size: 30px;
 margin: 20%;
+position: fixed;
 -webkit-hyphens: manual;
 -ms-hyphens: manual;
 hyphens: manual;
 /* background-image: url("assets/background.gif") */
 background: #eeeeee;
 line-height: 1.3em;
-padding: 30px;
+padding-left: 60px;
+padding-bottom: 30px;
+padding-right: 30px;
+scrolling: no;
+max-width: 775px;
+}
+.archive-sub {
+font-size: 20px;
+line-height: 1.3em;
+padding-top: 20px;
+font-style: italic;
+}
+.archive-heading {
+font-size: 60px;
+padding-top: 45px;
+padding-bottom: 30px;
 }
 
 .columns {
