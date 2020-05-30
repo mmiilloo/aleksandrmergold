@@ -30,7 +30,7 @@
 	<meta name="twitter:site" content="@website-username"> -->
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/main.css" type="text/css" />
+	<link rel="stylesheet" href="assets/archive.css" type="text/css" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -51,18 +51,52 @@ Spencer Lapp, AIA ’09 B.Arch, Associate COOKFOX Architects + Shuping Liu, AIA 
 </div>
 
 <!-- <div class="container"> -->
-	<div class="archive">
-		<div class="archive-heading">Archive</div>
+<div class="wrapper">
+<div class="archive-container">
+	<div class="archive-header">
+					Archive<br><br>
 
-					Here is a <a href="assets/AM_Letter-May_28.pdf" target="_blank">link to the PDF</a> which is the exact document emailed to Cornell Department of Architecture Faculty on Thursday, May 28<sup>th</sup>, 2020 at 10:35&nbsp;AM.
-<div class="archive-sub">
-					As of 10:00 AM on Thursday, May 28<sup>th</sup>&hairsp;—&hairsp;the time of its formatting&hairsp;—&hairsp;there were 453 signatures collected over a period of 39 hours.
-				</div>
+							<div class="archive-subheading">
 
+								Here is a <a href="assets/AM_Letter-May_28.pdf" target="_blank">link to the PDF</a> which is the exact document emailed to Cornell Architecture Faculty, Department Chair, and AAP Dean on Thursday, May 28<sup>th</sup> 2020 at 10:35&nbsp;AM.
+<br><br>
+
+									<div class="archive-update">
+										As of 10:00 AM on Thursday, May 28<sup>th</sup>&hairsp;—&hairsp;the time of its formatting&hairsp;—&hairsp;there were 453&nbsp;signatures collected over a period of 39 hours.<br>
+									</div>
+
+									<!-- <div class="archive-button">
+									<input font-style="none" type="button" id="btnSearch" value="random" style="padding: 5px 10px;" onclick="GetValue();" />
+								</div>
+
+
+			<div class="archive-random">
+			<p class="quotes" id="message" >“...”</p>
+
+			</div> -->
+		</div>
 	</div>
+</div>
+
+
+
+
+
 <!-- </div> -->
 
+			<script>
 
+							function GetValue()
+							{
+							    var myarray= new Array(
+										"&ldquo;item1&rdquo;",
+										"&ldquo;multiple words<br>two lines&rdquo;",
+										"&ldquo;As a student in several of his core studios and seminars, I can say that Prof. Mergold not only stood out to me as an incredibly talented architect, but also an incredible human being. His pedagogical approach is not only sound and rigorous, but also deeply empathetic-- a quality that is clearly visible in his personal work and in his students' projects. We as architects have a moral and ethical responsibility with society, and Prof. Mergold's pedagogical approach was always deeply emphatic of this aspect. Looking in hindsight now that I'm a registered practitioner in the field, I always found that Cornell's approach was often too prescriptive. Whilst most faculty encouraged the kind of rigorous analogue approach developed at the height of modernism, the truth is that this approach is completely out of touch with the realities of the profession in the twenty-first century. The practice has evolved, and Prof. Mergold's approach was reflective of this undeniable truth. As a student, I always found that the divide between academia and practice at Cornell was particularly profound, as many faculty had never actually built a building. In this sense, I found that Prof. Mergold was unique among Cornell faculty. Not only does he have a robust portfolio of built work, but he is actively creating opportunities within the programme to bridge the gap between academia and practice. His approach strikes careful balance between rigour, boldness, and innovation-- qualities we desperately need in the industry now more than ever. I'm genuinely shocked to hear he was not granted tenure, and even more shocked to hear he was not granted a right of appeal. Prof. Mergold is not only an outstanding thinker, a dedicated instructor, and a prolific practitioner, but he is also a long-standing member of the AAP community. He is a Cornellian and Ithacan at heart (something very few architecture faculty today can actually say), and his integrity as a practitioner, an educator, and as a human being are truly admirable. I believe the opaqueness in this process is detrimental Cornell's image, as it seriously undermines the trust we put in the University. I would like to urge the office of the Provost to reconsider their decision and grant a right of appeal. I believe this is well deserved as a matter of respect-- not only to Prof. Mergold, but also to his countless students, most of whom are now successful alumni around the world and owe their success in no small measure to Prof. Mergold's inspiring work.&rdquo;");
+							    var random = myarray[Math.floor(Math.random() * myarray.length)];
+							   document.getElementById("message").innerHTML=random;
+			}
+
+					</script>
 
 </body>
 </html>
