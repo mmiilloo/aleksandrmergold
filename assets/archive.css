@@ -5,7 +5,7 @@ html, body {
 
 body {
 	/* margin:0; */
-	/* background: lightgray; */
+	background: darkgray;
 	font-family: Times New Roman, serif;
 
 }
@@ -113,17 +113,19 @@ hanging-punctuation: first;
 }
 .archive-container {
 
-	width: 60%;
+	/* width: 60%; */
 	  padding-left: 10px;
 		padding-top: 15px;
 		padding-right: 40px;
 	  border: 0px solid gray;
-	  margin: 25%;
 		height: 250px;
 		margin-top: 120px;
+		right: 0;
+
+
 		position: fixed;
-		left: -40px;
-		max-width: 700px;
+		/* left: -40px; */
+		width: 700px;
 		padding-bottom: 50px;
 		background-color:#eeeeee;
 
