@@ -11,15 +11,18 @@ body {
 }
 
 h1 {
-	font-size: 40px;
-	padding-bottom: 15px;
+	font-size: 50px;
+	padding-bottom: 05px;
+	padding-left: 17px;
+	/* margin-left: -100px; */
 }
 
 
 p {
 	max-width: 800px;
-		/* font-size: 30px; */
+		font-size: 20px;
 		padding-bottom: 1.3em;
+		padding-left: 30px;
 		text-indent: -.4em;
 
 }
@@ -27,9 +30,11 @@ p {
 p.quotes {
 	max-width: 800px;
 		/* font-size: 20px; */
-		padding-bottom: 1.2em;
+		padding-bottom: 1.3em;
 		margin-right: 20px;
+		margin-left: -.4em;
 		padding-right: 10px;
+
 }
 
 
@@ -50,15 +55,13 @@ div.bg {
 
 
 div.home {
-  background-color: red;
-  width: 225px;
-  border: 10px solid red;
+
 	position: fixed;
 	/*margin-top: -10px;*/
 	margin-left: 0px;
 	padding-right: 0px;
 	padding-left: 10px;
-	margin-top: 200px;
+	margin-top: 110px;
 	text-decoration: none !important;
 	color: black;
 	font-size: 20px;
@@ -96,14 +99,13 @@ hr {
 	position: relative;
 	margin-left: 0;
 	margin-right: 10px;
-	margin-top: -2em;
+	/* margin-top: -2em; */
 	margin-bottom: 18px;
 	z-index: 20000;
 	padding-bottom: 10px;
 }
 
 .document {
-/* font-size: 30px; */
 margin: auto;
 -webkit-hyphens: manual;
 -ms-hyphens: manual;
@@ -111,42 +113,56 @@ hyphens: manual;
 hanging-punctuation: first;
 
 }
+
+.container {
+	background: #eeeeee;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	max-width: 650px;
+}
+
 .archive-container {
 	display: block;
 
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	  padding-left: 10px;
+		width: 60%;
+		margin: auto;
+	  padding-left: 00px;
 		padding-top: 15px;
 		padding-right: 40px;
 	  border: 0px solid gray;
-		height: 250px;
 		margin-top: 106px;
-
-
-
-		position: fixed;
-		/* left: -40px; */
 		max-width: 700px;
 		padding-bottom: 50px;
 		background-color:#eeeeee;
 
 }
 
-.archive-header {
-	/* font-size: 60px;
+.archive-subheading {
+	display: block;
+	font-size: 20px;
+	text-align:left;
+	padding-left: 20px;
+	padding-right: 10px;
 	/* position: absolute; */
-font-size: 20px;
-	top: 20px;
-	left: 20px;
-	line-height: 1.3em; */
-	position: fixed;
-   display: block;
-   text-align: left;
-   padding-left: 10px;
-	 padding-bottom: 30px;
-	 padding-right: 40px;
+	padding-bottom: 0px;
+
+}
+
+
+/* .archive-header {
+		font-size: 20px;
+		top: 20px;
+		left: 20px;
+		line-height: 1.3em;
+		position: fixed;
+	  display: block;
+	  text-align: left;
+	  padding-left: 10px;
+		padding-bottom: 30px;
+	 	padding-right: 40px;
+	 	max-width: 700px;
 
 }
 
@@ -156,11 +172,8 @@ font-size: 20px;
 	text-align:left;
 	padding-left: 0px;
 	padding-right: 10px;
-	/* padding-right: 30px; */
 	position: absolute;
 	padding-bottom: 0px;
-	/* background: white; */
-
 
 }
 
@@ -171,23 +184,20 @@ font-size: 20px;
 	margin-left: -20px;
 	margin-right: -10px;
 	margin-bottom: 10px;
-	/* padding-right: 30px; */
-	/* padding-top: 30px; */
-	font-style: italic;
 	padding-bottom: 50px;
 	padding-left: 148px;
 	padding-right: 40px;
 	background: #eeeeee;
 	z-index: 9999;
 
-}
+} */
 
 .archive-button{
 	font-size: 20px;
 	line-height: 1.3em;
-	padding-top: 1.3em;
+	padding-top: 0.65em;
 	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-left: 60px;
 	margin-top:
 	margin-left: -20px;
 	margin-right: -10px;
@@ -209,70 +219,29 @@ font-size: 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
 
-.wrapper{
-			position: relative;
-			display: block;
-			margin-left: -20px;
-			overflow:scroll;
-			margin-right: -10px;
-			margin-top: -120px;
-			max-height: 552px;
-			padding-top: 70px;
-			background-color:#eeeeee;
-			padding-right: 20px;
-			padding-left: 150px;
-			padding-bottom: 0px;
-			margin-bottom: 200px;
-			background: #eeeeee;
 }
-/* .wrapper::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-.wrapper::-webkit-scrollbar:vertical {
-    width: 9px;
-}
-
-
-.wrapper::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 2px solid #eeeeee;
-    background-color: rgba(0, 0, 0, .5);
-} */
 
 
 .archive-random {
 
 	line-height: 1.3em;
-		/* width: 110%; */
-		margin-top: -280px;
-		margin-left: -20px;
+		/* margin-top: -280px; */
+		margin-left: -10px;
 		margin-right: 10px;
 		padding-top: 700px;
 		padding-left: 50px;
-		max-height: 400px;
+		max-height: 100%;
 		position: relative;
 		background-color:#eeeeee;
 		z-index: -99;
 		overflow-y: scroll;
-		text-indent: -.4em;
-		/* padding-bottom: 20px;
-		margin-bottom: 50px; */
+		/* text-indent: -.4em; */
+		margin-bottom: 50px;
 
 
 
 }
-
-/* .wrapper {
-    position: relative;
-    background: none;
-		border-width: 15px;
-		border-style: solid;
-		border-color: red;
-} */
-
 
 
 .columns {
